@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <script type="module" crossorigin src="./assets/index-DaAKG2jf.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-9bddOuLt.css">
+  </head>
+  <body class="bg-blue-300">
+    <div
+      class="w-[25%] min-h-150 flex flex-col bg-black rounded-xl shadow-2xl mx-auto mt-15 p-5"
+    >
+      <!-- input -->
+      <div class="w-full mt-10">
+        <input
+          type="text"
+          readonly
+          placeholder="0"
+          class="input w-full h-12.5 bg-transparent text-2xl text-white text-right"
+        />
+      </div>
+      <!-- end input -->
+
+      <!-- buttons -->
+      <div
+        class="w-full grid grid-cols-4 auto-rows-[70px] gap-2 mt-10 text-white"
+      >
+        <!-- Row 1 -->
+        <button
+          class="btn-ac bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          AC
+        </button>
+        <button
+          class="btn-del bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          DEL
+        </button>
+        <button
+          class="btn-operator bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          /
+        </button>
+        <button
+          class="btn-operator bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          *
+        </button>
+
+        <!-- Row 2 -->
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          7
+        </button>
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          8
+        </button>
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          9
+        </button>
+        <button
+          class="btn-operator bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          -
+        </button>
+
+        <!-- Row 3 -->
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          4
+        </button>
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          5
+        </button>
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          6
+        </button>
+        <button
+          class="btn-operator bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          +
+        </button>
+
+        <!-- Row 4 -->
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          1
+        </button>
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          2
+        </button>
+        <button
+          class="btn-number bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          3
+        </button>
+
+        <!-- = spans two rows -->
+        <button
+          class="btn-equal row-span-2 bg-orange-400 hover:bg-orange-600 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          =
+        </button>
+
+        <!-- Row 5 -->
+        <button
+          class="btn-number col-span-2 bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          0
+        </button>
+        <button
+          class="btn-dot bg-gray-700 hover:bg-gray-800 transition-all duration-300 rounded-xl cursor-pointer"
+        >
+          .
+        </button>
+      </div>
+      <!-- end buttons -->
+    </div>
+  </body>
+</html>
